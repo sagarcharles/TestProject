@@ -1,3 +1,5 @@
+#this is docker file for test project
+
 FROM centos:latest
 MAINTAINER sagar.charles7@gmail.com
 RUN sudo apt-get update
