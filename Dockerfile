@@ -2,8 +2,7 @@
 
 FROM centos:latest
 MAINTAINER sagar.charles7@gmail.com
-RUN sudo apt-get update
-RUN sudo apt-get install apache2\
+RUN yum install httpd -y\
 zip\
 unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page270/unika.zip /var/www/html
